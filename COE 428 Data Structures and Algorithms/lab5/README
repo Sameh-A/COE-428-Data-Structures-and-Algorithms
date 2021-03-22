@@ -1,0 +1,52 @@
+Sameh Ahmed 
+500907041	
+I attempted part 3  initially with the thought that part 3's
+reading will make part 1 and 2 much simpler.
+
+Summarize your lab: 
+  Part 1:
+     Works  Yes 
+     
+  Part 2:
+     Works  Yes
+  Part 3:
+     Works  No
+This did not work as I came to a problem regardin the hash table file inclusion 
+with part3main.
+     
+***ANSWERS TO QUESTIONS***
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+ YOUR ANSWER:chaining was used. This was becuase of the many entries
+which link together. This would be more effecient with chaining.
+ 
+ 
+ 
+ 
+ 
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+ YOUR ANSWER: We used divions hash function as one of its benefits is it being faster then multiplication
+with many data entries.
+
+ 
+ 
+ 
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+       
+ YOUR ANSWER: I would modify it by making a new if statement that covers the condition
+in which case the char '>' is proceeded by "/" and then immediatly store it in the hash table. This is because
+the need to push and pop would be necessary as those just verify the start and end tags matching.
+  

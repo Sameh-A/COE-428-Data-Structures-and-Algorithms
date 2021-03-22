@@ -1,0 +1,21 @@
+Sameh Ahmed 500907041
+
+
+1. The merge sort and insertion has been implemented 
+successfully. Due to a pascal denying access I was
+unable to test my sorts. However, they compile successfully.
+Both sorting algorithms were implemented using the textbook. A
+major issue I faced early was the use of mySwap
+and myCompare, however after closely analysing I was able
+to implement it.
+
+2. 
+Insertion sort :
+The best case O(n) time with 0 swaps, n moves and n-1 number of comparisons.
+The average case O(n^2) time with n-1 moves, and n(n-1)/2 swaps and compares.
+The worse case has the same equations as the average case.
+
+Merge Sort :
+The best case has O(nlogn) time with 0 swaps and n-1 compares.
+All of the average cases for merge sort excluding time depends on the array.Time
+however is the same for all cases being O(nlogn). The worst case also depends on the array.
